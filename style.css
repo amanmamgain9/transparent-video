@@ -16,10 +16,12 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden; /* Ensure no scrollbars are shown */
 }
 
 video {
-    width: 80%;
+    width: 100%;
     height: auto;
     background-color: transparent; /* Ensure video background is transparent */
+    transform: scale(1.5) translate(0%, 20%); /* Adjust the scaling and translation as needed */
 }
