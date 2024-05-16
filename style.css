@@ -11,12 +11,15 @@ body, html {
 
 .container {
     position: relative;
-    width: 80%;
-    max-width: 800px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 video {
-    width: 100%;
+    width: 80%;
     height: auto;
     background-color: transparent; /* Ensure video background is transparent */
 }
