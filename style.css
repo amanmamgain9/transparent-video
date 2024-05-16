@@ -23,5 +23,5 @@ video {
     width: 100%;
     height: auto;
     background-color: transparent; /* Ensure video background is transparent */
-    transform: scale(3) translate(0%, 20%); /* Adjust the scaling and translation as needed */
+    transform: scale(3) translate(0%, 14%); /* Adjust the scaling and translation as needed */
 }
